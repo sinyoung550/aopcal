@@ -6,7 +6,7 @@ public class ExeTimeCalculator implements Calculator{
 	public ExeTimeCalculator(Calculator delegate) {
 		this.delegate = delegate;
 	}
-
+ 
 	@Override
 	public long factorial(long num) {
 		long start = System.nanoTime();
